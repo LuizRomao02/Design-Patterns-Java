@@ -7,4 +7,5 @@ import br.com.luizromao.loja.Orcamento;
 public interface Imposto {
 
 	BigDecimal calcular(Orcamento orcamento);
+
 }
