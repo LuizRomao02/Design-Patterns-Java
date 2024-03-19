@@ -3,6 +3,7 @@ package br.com.luizromao.loja;
 import java.math.BigDecimal;
 
 import br.com.luizromao.loja.desconto.CalculadoraDeDescontos;
+import br.com.luizromao.loja.orcamento.Orcamento;
 
 public class TestesDescontos {
 
@@ -16,5 +17,4 @@ public class TestesDescontos {
 		System.out.println(calculadora.calcular(segundo));
 		System.out.println(calculadora.calcular(terceiro));
 	}
-
 }

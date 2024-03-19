@@ -2,7 +2,7 @@ package br.com.luizromao.loja.desconto;
 
 import java.math.BigDecimal;
 
-import br.com.luizromao.loja.Orcamento;
+import br.com.luizromao.loja.orcamento.Orcamento;
 
 public class DescontoParaOrcamentoComValorMaiorQueQuinhentos extends Desconto {
 
@@ -18,5 +18,4 @@ public class DescontoParaOrcamentoComValorMaiorQueQuinhentos extends Desconto {
 	public boolean deveAplicar(Orcamento orcamento) {
 		return orcamento.getValor().compareTo(new BigDecimal("500")) > 0;
 	}
-
 }
