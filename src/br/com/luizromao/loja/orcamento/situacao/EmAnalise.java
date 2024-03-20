@@ -16,9 +16,10 @@ public class EmAnalise extends SituacaoOrcamento {
 	public void aprovar(Orcamento orcamento) throws DomainException {
 		orcamento.setSituacao(new Aprovado());
 	}
-
+	
 	@Override
 	public void reprovar(Orcamento orcamento) throws DomainException {
 		orcamento.setSituacao(new Reprovado());
 	}
+
 }

@@ -18,4 +18,5 @@ public class DescontoParaOrcamentoComValorMaiorQueQuinhentos extends Desconto {
 	public boolean deveAplicar(Orcamento orcamento) {
 		return orcamento.getValor().compareTo(new BigDecimal("500")) > 0;
 	}
+
 }

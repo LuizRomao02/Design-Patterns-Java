@@ -16,4 +16,5 @@ public class Aprovado extends SituacaoOrcamento {
 	public void finalizar(Orcamento orcamento) throws DomainException {
 		orcamento.setSituacao(new Finalizado());
 	}
+
 }

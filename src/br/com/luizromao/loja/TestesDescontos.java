@@ -17,4 +17,5 @@ public class TestesDescontos {
 		System.out.println(calculadora.calcular(segundo));
 		System.out.println(calculadora.calcular(terceiro));
 	}
+
 }

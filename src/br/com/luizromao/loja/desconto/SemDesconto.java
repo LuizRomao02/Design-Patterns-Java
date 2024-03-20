@@ -18,4 +18,5 @@ public class SemDesconto extends Desconto {
 	public boolean deveAplicar(Orcamento orcamento) {
 		return true;
 	}
+
 }
