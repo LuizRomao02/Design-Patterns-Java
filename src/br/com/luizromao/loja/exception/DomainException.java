@@ -1,4 +1,4 @@
-package br.com.luizromao.loja;
+package br.com.luizromao.loja.exception;
 
 public class DomainException extends RuntimeException {
 

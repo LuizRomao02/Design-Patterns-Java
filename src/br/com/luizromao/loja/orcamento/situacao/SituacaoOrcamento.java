@@ -2,7 +2,7 @@ package br.com.luizromao.loja.orcamento.situacao;
 
 import java.math.BigDecimal;
 
-import br.com.luizromao.loja.DomainException;
+import br.com.luizromao.loja.exception.DomainException;
 import br.com.luizromao.loja.orcamento.Orcamento;
 
 public abstract class SituacaoOrcamento {
